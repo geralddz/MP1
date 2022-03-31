@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.geraldmobileproject" >
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GeraldMobileProject" >
+        <activity
+            android:name="com.mobile.mp1.MainActivitycoba"
+            android:exported="false" />
+        <activity android:name="com.mobile.mp1.activity_notification" />
+        <activity android:name="com.mobile.mp1.Activity_profile" />
+        <activity android:name="com.mobile.mp1.Activity_login" />
+        <activity android:name="com.mobile.mp1.implicit_intent" />
+        <activity android:name="com.mobile.mp1.ui.Activity_Form" />
+        <activity android:name="com.mobile.mp1.activity_implicit" />
+        <activity android:name="com.mobile.mp1.ui.MainActivity2" />
+        <activity android:name="com.mobile.mp1.ui.Activity_Recycler" />
+        <activity android:name="com.mobile.mp1.ui.MainActivity3" />
+        <activity android:name="com.mobile.mp1.ui.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
